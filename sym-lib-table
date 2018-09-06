@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name EEG_ADS1299-rescue)(type Legacy)(uri ${KIPRJMOD}/EEG_ADS1299-rescue.lib)(options "")(descr ""))
+  (lib (name conn1)(type Legacy)(uri ${KIPRJMOD}/libs/conn1.lib)(options "")(descr ""))
+  (lib (name emg_circuit_2_ext_amp-cache)(type Legacy)(uri ${KIPRJMOD}/libs/emg_circuit_2_ext_amp-cache.lib)(options "")(descr ""))
+  (lib (name emg_circuit_2_ext_amp-rescue)(type Legacy)(uri ${KIPRJMOD}/libs/emg_circuit_2_ext_amp-rescue.lib)(options "")(descr ""))
+  (lib (name Johanson)(type Legacy)(uri ${KIPRJMOD}/libs/Johanson.lib)(options "")(descr ""))
+  (lib (name texas_ads1299)(type Legacy)(uri ${KIPRJMOD}/libs/texas_ads1299.lib)(options "")(descr ""))
+  (lib (name texas_TPS6122x)(type Legacy)(uri ${KIPRJMOD}/libs/texas_TPS6122x.lib)(options "")(descr ""))
+  (lib (name texas_TPS61222)(type Legacy)(uri ${KIPRJMOD}/libs/texas_TPS61222.lib)(options "")(descr ""))
+  (lib (name EEG_ADS1299_2-cache)(type Legacy)(uri ${KIPRJMOD}/libs/EEG_ADS1299_2-cache.lib)(options "")(descr ""))
+)
