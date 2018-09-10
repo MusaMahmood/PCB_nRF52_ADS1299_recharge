@@ -1922,8 +1922,6 @@ Wire Wire Line
 	25050 8650 25250 8650
 Connection ~ 25050 8350
 Wire Wire Line
-	24150 8850 25750 8850
-Wire Wire Line
 	25750 8850 25750 8650
 $Comp
 L Connector:Conn_01x08_Male J1
@@ -2308,4 +2306,43 @@ Wire Notes Line
 	19150 10850 22200 10850
 Text Notes 19150 10850 0    60   ~ 0
 Load Sharing Circuit (MOSFET + Schottky Diode)
+Wire Notes Line
+	600  4250 2800 4250
+Wire Notes Line
+	2800 4250 2800 7800
+Wire Notes Line
+	2800 7800 600  7800
+Wire Notes Line
+	600  7800 600  4250
+Text Notes 600  4250 0    60   ~ 0
+Power Connectors
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5B9E069A
+P 23000 9600
+F 0 "J2" H 23106 9778 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 23106 9687 50  0000 C CNN
+F 2 "" H 23000 9600 50  0001 C CNN
+F 3 "~" H 23000 9600 50  0001 C CNN
+	1    23000 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	23200 9600 23850 9600
+Wire Wire Line
+	23850 9600 23850 8850
+Wire Wire Line
+	23850 8850 25750 8850
+Wire Wire Line
+	26150 14100 25600 14100
+Text Label 25600 14100 0    60   ~ 0
+SRB1
+Text Label 24150 9000 0    60   ~ 0
+SRB1
+Wire Wire Line
+	23200 9700 24050 9700
+Wire Wire Line
+	24050 9700 24050 9000
+Wire Wire Line
+	24050 9000 24150 9000
 $EndSCHEMATC
